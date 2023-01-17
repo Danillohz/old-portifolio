@@ -45,14 +45,21 @@ div#home{
     margin: auto;
    
 }
-div#home > img {
+picture#perfil> img {
     display: block;
-    min-width: none;
-    max-width: 25%;
+    position: relative;
+    max-width: 15%;
     margin: auto;
+    top: 10%;
     border: 1px solid #F20544 ;
     border-radius: 100%;
     opacity: 80%;
 
 }
 
+picture#perfil> img:hover{
+    max-width: 17%;
+    transition: 0.2s;
+
+    
+}
