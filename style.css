@@ -7,7 +7,7 @@
 
 body{
     background-color: #3f4957;
-   
+   height: 1000px;
 }
 
 header{
@@ -34,32 +34,43 @@ header > h1{
 
 div#home{
     position: relative;
-    min-width: 299px;
+    min-width: 295px;
     max-width: 90vw;
-    min-height: 50px;
-    max-height: 100vw;
+    min-height: 120px;
+    max-height: 120vw;
     height: 600px;
     border-left: 4px solid #8C2656;
     border-right: 4px solid #F20544 ;
     border-radius: 50px 25px 100px 20px;
     margin: auto;
+    opacity: 90;
+    background: black url(imagens/nathan-anderson-8fcWFnO3ZyA-unsplash.jpg) no-repeat center bottom fixed;
+    background-size: 100% 100%;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.527);
+    
+    
    
 }
 picture#perfil> img {
     display: block;
     position: relative;
-    max-width: 15%;
+    min-width: 10%;
+    max-width: 100%;
+    width: 70px;
     margin: auto;
-    top: 10%;
-    border: 1px solid #F20544 ;
+    top: 5%;
     border-radius: 100%;
-    opacity: 80%;
+    opacity: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.13);
 
 }
 
-picture#perfil> img:hover{
-    max-width: 17%;
-    transition: 0.2s;
+picture#perfil > img:hover{
+    width: 80px;
+    min-width: 10%;
+    transition: 0.3s;
 
-    
+
 }
+
+
