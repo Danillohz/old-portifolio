@@ -67,10 +67,31 @@ picture#perfil> img {
 
 picture#perfil > img:hover{
     width: 80px;
-    min-width: 10%;
+    min-width: 12%;
     transition: 0.3s;
 
+}
 
+div#container-left{
+    position: absolute;
+    background-color: #0531f2;
+    width: 40%;
+    height: 100%;
+}
+
+button#btn-Redes-Sociais{
+    background-color: #c51944ad;
+    border: 0px ;
+    border-radius: 5px;
+    min-width: 10%;
+    max-width: 60%;
+    width: 300px;
+    height: 30px;
+    margin-left: 25%;
+}
+
+button#btn-Redes-Sociais:active{
+    background-color: #0531f2;
 }
 
 
