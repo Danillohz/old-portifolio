@@ -20,10 +20,29 @@ header{
     height: 33px;
 
 }
-header > h1{
+
+nav{
+    display: flex;
     color: white;
-    text-align: center;
-    font-size: 28px;
+}
+
+nav > h1{
+    margin: 0px 0px 0px 25% ;
+    font-size: 30px;
+}
+nav > button{
+    border: none;
+    background-color: #011420;
+}
+
+span.material-symbols-outlined{
+    padding: 5px 5px 5px 5px;
+    background-color: #011420;
+    color: white;
+    
+}
+span.material-symbols-outlined:hover{
+    background-color: #3f4957;
     
 }
 
@@ -32,13 +51,33 @@ header::after{
     display: block;
     position: absolute;
     width: 100%;
+    top: 2rem;
     height: 0.1rem;
     background-image: linear-gradient(to right,  #8C2656 0%, #F20544 92.32%);
 }
 
+menu#opcoes{
+    display: none;
+    
+}
+menu#opcoes > ul > li{
+    display: block;
+    position: relative;
+    color: white;
+    background-color: #252b3391;
+    width: 50%;
+    padding: 5px;
+    cursor: pointer;
+    
+    z-index: 1;
+}
+menu#opcoes > ul > li:hover{
+    background-color: #0b0d0fb7;
+}
+
 div#container-img-fundo{
     position: relative;
-    background: black url(../imagens/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg) no-repeat center center fixed;
+    background: black url(../imagens/clement-m-igX2deuD9lc-unsplash.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
     box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.527);
     border-radius: 50px 25px 100px 20px;

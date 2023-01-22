@@ -8,13 +8,24 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-query.css" >
 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
 </head>
 <body>
     <header>
-        <menu>
-
+        <nav>
+            <button onclick="clickMenu()"><span class="material-symbols-outlined">menu</span></button>
+            <h1>Portifólio</h1>
+        </nav>
+        <menu id="opcoes">
+            <ul>
+                <li>Profile</li>
+                <li>Projects</li>
+                <li>Contact</li>
+                
+            </ul>
         </menu>
-        <h1>Portifólio</h1>
+       
     </header>
     <main>
         <article>
@@ -27,5 +38,17 @@
             </section>
         </article>
     </main>
+
+    <script>
+        function clickMenu(){
+            if(opcoes.style.display == 'block'){
+                opcoes.style.display = 'none'
+            }
+            else{
+                opcoes.style.display = 'block'
+            }
+            
+        }
+    </script>
 </body>
 </html>
