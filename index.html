@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
     <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/media-query.css" >
+    <link rel="stylesheet" href="estilos/media-query.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 </head>
+
 <body>
     <header>
         <nav>
-            <button onclick="clickMenu()"><span class="material-symbols-outlined">menu</span></button>
+            <button onclick="clickMenu()"><span id="menuIcon" class="material-symbols-outlined">menu</span></button>
             <h1>Portifólio</h1>
         </nav>
         <menu id="opcoes">
             <ul>
-                <li>Profile</li>
+                <li id="com-borda">Profile</li>
                 <li>Projects</li>
                 <li>Contact</li>
-                
+
             </ul>
         </menu>
-       
+
     </header>
     <main>
         <article>
             <section>
                 <div id="Home">
                     <div id="container-img-fundo">
-                        <img src="imagens/Foto-minha.png" alt="Minha-imagem">
+                        <a href="https://github.com/Danillohz" target="_blank"><img src="imagens/Foto-minha.png"
+                                alt="Minha-imagem"></a>
                     </div>
                 </div>
             </section>
@@ -40,15 +43,35 @@
     </main>
 
     <script>
-        function clickMenu(){
-            if(opcoes.style.display == 'block'){
-                opcoes.style.display = 'none'
+        function clickMenu() {
+
+            var opacity = opcoes.style.opacity
+
+            if (opcoes.style.visibility == 'visible') {
+                opcoes.style.visibility = 'hidden'
+                opcoes.style.opacity = 0
+                opcoes.style.transition = 'visibility 0.8s, opacity 0.8s linear'
+                menuIcon.style.backgroundColor = '#011420'
+
+
+
+            } else {
+                opcoes.style.visibility = 'visible'
+                opcoes.style.opacity = 1
+                opcoes.style.transition = 'visibility 0s, opacity 0.8s linear'
+                menuIcon.style.backgroundColor = '#495053';
+
+
+
             }
-            else{
-                opcoes.style.display = 'block'
-            }
-            
+
+
+
+
+
+
         }
     </script>
 </body>
+
 </html>

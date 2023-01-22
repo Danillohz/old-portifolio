@@ -27,22 +27,20 @@ nav{
 }
 
 nav > h1{
-    margin: 0px 0px 0px 25% ;
-    font-size: 30px;
+    margin: 4px 0px 0px 35% ;
+    font-size: 25px;
 }
 nav > button{
     border: none;
     background-color: #011420;
+    width: 0px;
 }
 
-span.material-symbols-outlined{
-    padding: 5px 5px 5px 5px;
+span#menuIcon{
+    padding: 7px 5px 2px 5px;
     background-color: #011420;
     color: white;
     
-}
-span.material-symbols-outlined:hover{
-    background-color: #3f4957;
     
 }
 
@@ -57,19 +55,30 @@ header::after{
 }
 
 menu#opcoes{
-    display: none;
+    position: relative;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    
+}
+
+menu#opcoes > ul{
+    position: relative;
+    width: 50%;
+    background-color: #252b3391;
+    border-radius: 0px 25px 0px 10px;
     
 }
 menu#opcoes > ul > li{
     display: block;
     position: relative;
     color: white;
-    background-color: #252b3391;
-    width: 50%;
     padding: 5px;
     cursor: pointer;
-    
-    z-index: 1;
+}
+menu#opcoes > ul > li#com-borda:hover{
+    background-color: #0b0d0fb7;
+    border-radius: 0px 25px 0px 0px;
 }
 menu#opcoes > ul > li:hover{
     background-color: #0b0d0fb7;
@@ -85,6 +94,7 @@ div#container-img-fundo{
     border-right: 4px solid #F20544 ;
     margin: auto;
     width: 90%;
+    opacity: 90%;
     height: 70vh;
 }
 
