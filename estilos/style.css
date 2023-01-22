@@ -34,6 +34,7 @@ nav > button{
     border: none;
     background-color: #011420;
     width: 0px;
+    cursor: pointer;
 }
 
 span#menuIcon{
@@ -55,34 +56,41 @@ header::after{
 }
 
 menu#opcoes{
-    position: relative;
+    position: absolute;
     visibility: hidden;
-    opacity: 0;
+    left: -30%;
+    width: 100%;
     z-index: 1;
     
 }
 
 menu#opcoes > ul{
     position: relative;
-    width: 50%;
+    width: 30%;
     background-color: #252b3391;
     border-radius: 0px 25px 0px 10px;
     
 }
-menu#opcoes > ul > li{
-    display: block;
-    position: relative;
+
+button.buttons-menu{
+    background-color: transparent;
     color: white;
-    padding: 5px;
+    border: none;
     cursor: pointer;
+    text-align: left;
+    width: 100%;
+    height: 20px;
+    
 }
-menu#opcoes > ul > li#com-borda:hover{
-    background-color: #0b0d0fb7;
+button#btn-menu-top{
     border-radius: 0px 25px 0px 0px;
 }
-menu#opcoes > ul > li:hover{
-    background-color: #0b0d0fb7;
+button.buttons-menu:hover{
+    background-color: #2e313591; 
+    height: 30px;
+    transition: 300ms;
 }
+
 
 div#container-img-fundo{
     position: relative;
@@ -100,14 +108,32 @@ div#container-img-fundo{
 
 div#container-img-fundo img{
     position: absolute;
-    left: 40%;
-    top: 5%;
+    left: 50%;
+    top: 15%;
     border-radius: 100%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
     width: 70px;
+
+    transform: translate(-50%, -50%);
 }
 
 div#container-img-fundo img:hover{
     width: 75px;
     transition: 0.2s;
+}
+
+div#profile{
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.466);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 94%;
+    border-radius: 50px 25px 100px 20px;
+    box-shadow: 1px 1px 10px 1px black;
+    
 }

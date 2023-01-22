@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-query.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="js/scripts.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 
 </head>
 
@@ -21,9 +23,9 @@
         </nav>
         <menu id="opcoes">
             <ul>
-                <li id="com-borda">Profile</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><button id="btn-menu-top" class="buttons-menu" onclick="clickProfile()">Profile</button></li>
+                <li><button class="buttons-menu" onclick="">Projects</button></li>
+                <li><button class="buttons-menu" onclick="">Contact</button></li>
 
             </ul>
         </menu>
@@ -34,6 +36,9 @@
             <section>
                 <div id="Home">
                     <div id="container-img-fundo">
+                        <div id="profile">
+                        <div id="textprof"></div>
+                        </div>
                         <a href="https://github.com/Danillohz" target="_blank"><img src="imagens/Foto-minha.png"
                                 alt="Minha-imagem"></a>
                     </div>
@@ -49,28 +54,45 @@
 
             if (opcoes.style.visibility == 'visible') {
                 opcoes.style.visibility = 'hidden'
-                opcoes.style.opacity = 0
-                opcoes.style.transition = 'visibility 0.8s, opacity 0.8s linear'
+                opcoes.style.left = '-30%'
+                opcoes.style.transition = 'visibility 1s, '
                 menuIcon.style.backgroundColor = '#011420'
 
 
 
-            } else {
+                } else {
                 opcoes.style.visibility = 'visible'
-                opcoes.style.opacity = 1
-                opcoes.style.transition = 'visibility 0s, opacity 0.8s linear'
+                opcoes.style.left = '-0%'
+                opcoes.style.transition = 'visibility 1s, left 1s'
                 menuIcon.style.backgroundColor = '#495053';
 
 
 
             }
-
-
-
-
-
-
+            
         }
+
+        function clickProfile() {
+
+            if (profile.style.visibility == 'visible') {
+                profile.style.visibility = 'hidden'
+                profile.style.opacity = 0
+                profile.style.transition = 'visibility 1s, opacity 0.8s linear'
+              
+
+
+
+            } else {
+                profile.style.visibility = 'visible'
+                profile.style.opacity = 1
+                profiles.style.transition = 'visibility 0s, opacity 0.8s linear'
+                
+            
+            }
+            
+        }
+        
+        
     </script>
 </body>
 
