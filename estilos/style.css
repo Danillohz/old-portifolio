@@ -123,9 +123,8 @@ div#container-img-fundo img:hover{
 }
 
 div#profile{
-    visibility: hidden;
-    opacity: 0;
-    transition: 1s;
+    visibility: visible;
+    opacity: 1;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.466);
     left: 50%;
@@ -137,3 +136,36 @@ div#profile{
     box-shadow: 1px 1px 10px 1px black;
     
 }
+
+div#textBemvindo{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    width: 190px;
+    margin: auto;
+    padding-top: 32%;
+    text-align: center;
+    
+    
+}
+div#textEu{
+    position: relative;
+    color: white;
+    font-size: 19px;
+    padding-top: 1%;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    
+}
+div#textDev{
+    position: relative;
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 15px;
+    padding-top: 1%;
+    width: 190px;
+    margin: auto;
+    text-align: center;
+    
+}
+

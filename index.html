@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-query.css">
 
-    <script src="js/scripts.js" defer></script>
+    <script src="js/scripts.js" async></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
 </head>
 
@@ -37,7 +37,12 @@
                 <div id="Home">
                     <div id="container-img-fundo">
                         <div id="profile">
-                        <div id="textprof"></div>
+                            <div id="textBemvindo">
+                            </div>
+                            <div id="textEu"><p></p>
+                            </div>
+                            <div id="textDev">
+                            </div>
                         </div>
                         <a href="https://github.com/Danillohz" target="_blank"><img src="imagens/Foto-minha.png"
                                 alt="Minha-imagem"></a>
@@ -47,53 +52,6 @@
         </article>
     </main>
 
-    <script>
-        function clickMenu() {
-
-            var opacity = opcoes.style.opacity
-
-            if (opcoes.style.visibility == 'visible') {
-                opcoes.style.visibility = 'hidden'
-                opcoes.style.left = '-30%'
-                opcoes.style.transition = 'visibility 1s, '
-                menuIcon.style.backgroundColor = '#011420'
-
-
-
-                } else {
-                opcoes.style.visibility = 'visible'
-                opcoes.style.left = '-0%'
-                opcoes.style.transition = 'visibility 1s, left 1s'
-                menuIcon.style.backgroundColor = '#495053';
-
-
-
-            }
-            
-        }
-
-        function clickProfile() {
-
-            if (profile.style.visibility == 'visible') {
-                profile.style.visibility = 'hidden'
-                profile.style.opacity = 0
-                profile.style.transition = 'visibility 1s, opacity 0.8s linear'
-              
-
-
-
-            } else {
-                profile.style.visibility = 'visible'
-                profile.style.opacity = 1
-                profiles.style.transition = 'visibility 0s, opacity 0.8s linear'
-                
-            
-            }
-            
-        }
-        
-        
-    </script>
 </body>
 
 </html>
