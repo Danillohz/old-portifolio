@@ -140,10 +140,10 @@ div#profile{
 div#textBemvindo{
     position: relative;
     color: white;
-    font-size: 25px;
+    font-size: 23px;
     width: 190px;
     margin: auto;
-    padding-top: 32%;
+    padding-top: 34%;
     text-align: center;
     
     
@@ -151,7 +151,7 @@ div#textBemvindo{
 div#textEu{
     position: relative;
     color: white;
-    font-size: 19px;
+    font-size: 17px;
     padding-top: 1%;
     width: 250px;
     margin: auto;
@@ -161,7 +161,7 @@ div#textEu{
 div#textDev{
     position: relative;
     color: rgba(0, 0, 0, 0.459);
-    font-size: 15px;
+    font-size: 13px;
     padding-top: 1%;
     width: 190px;
     margin: auto;
