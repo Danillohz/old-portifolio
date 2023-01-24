@@ -1,1 +1,90 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+
+    menu#opcoes{
+        position: absolute;
+        visibility: hidden;
+        left: -30%;
+        width: 50%;
+        z-index: 1;
+        
+        
+    }
+
+    button.buttons-menu{
+        font-size: 15px;
+        height: 23px;
+    }
+
+    div#container-img-fundo{
+        background-image: url(../imagens/juan-davila-P8PlK2nGwqA-unsplash.jpg);
+     }
+
+    div#container-img-fundo img{
+        position: relative;
+        margin: auto;
+        top: 15%;
+        border-radius: 100%;
+        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
+        width: 80px;
+    
+        transform: translate(-50%, -50%);
+    }
+    
+    div#container-img-fundo img:hover{
+        width: 85px;
+        transition: 0.2s;
+    }
+
+    div#textBemvindo{
+        position: relative;
+        color: white;
+        font-size: 30px;
+        width: 100%;
+        margin: auto;
+        padding-top: 18vh;
+        text-align: center;
+        
+        
+    }
+    div#textEu{
+        position: relative;
+        color: white;
+        font-size: 25px;
+        padding-top: 1%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    div#textDev{
+        position: relative;
+        color: #8C2656;
+        font-size: 18px;
+        padding-top: 0%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+    div#container-img-fundo{
+       background-image: url(../imagens/juan-davila-P8PlK2nGwqA-unsplash.jpg);
+    }
+
+    
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+
+    div#container-img-fundo{
+       background-image: url(../imagens/tobias-tullius-PXXtq6bp6cs-unsplash.jpg);
+    }
+
+    
+}

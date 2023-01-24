@@ -61,7 +61,7 @@ function clickMenu() {
 
 
     if (opcoes.style.visibility == 'visible') {
-        opcoes.style.cssText = 'visibility: hidden;' + 'left: -30%;' + 'transition: visibility 1s, left 1s;';
+        opcoes.style.cssText = 'visibility: hidden;' + 'left: -40%;' + 'transition: visibility 1s, left 1s;';
 
         menuIcon.style.backgroundColor = '#011420';
 
