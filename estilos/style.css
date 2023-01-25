@@ -11,7 +11,7 @@ body, html{
 }
 
 body{
-    background-color: #3f4957;
+    background-color: #282f38;
 }
 
 header{
@@ -101,10 +101,33 @@ button#btn-menu-cont{
 
 }
 
-div#container-img-fundo{
-    position: relative;
-    background: black url(../imagens/clement-m-igX2deuD9lc-unsplash.jpg) no-repeat center center fixed;
+button#dayNight{
+    width: 12vw;
+    height: 20px;
+    border: 1px solid #8C2656;
+    border-radius: 10px;
+    margin: 10px 0px 0px 0px;
+    padding: 1px;
+}
+
+#bollDayNight{
+    background: black url(../imagens/dia-e-noite.png) no-repeat;
+    background-size: cover;
     background-size: 100% 100%;
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 100%;
+    
+    
+    
+}
+
+div#containerImgFundo{
+    position: relative;
+    background: black url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-size: cover;
     box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.527);
     border-radius: 50px 25px 100px 20px;
     border-left: 4px solid #8C2656;
@@ -115,7 +138,7 @@ div#container-img-fundo{
     height: 70vh;
 }
 
-div#container-img-fundo img{
+div#containerImgFundo img{
     position: absolute;
     left: 50%;
     top: 15%;
@@ -127,7 +150,7 @@ div#container-img-fundo img{
     transform: translate(-50%, -50%);
 }
 
-div#container-img-fundo img:hover{
+div#containerImgFundo img:hover{
     width: 75px;
 }
 
@@ -176,5 +199,29 @@ div#textDev{
     margin: auto;
     text-align: center;
     
+}
+
+#cv, #contato{
+    position: absolute;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    font-size: 4.5vw;
+    border-radius: 8px;
+    padding: 4px;
+    
+}
+#cv{
+    margin: 3% 0px 0px 50%;
+    border: 1px solid #8C2656;
+}
+#contato{
+    margin: 15% 0px 0px 65%;
+    background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
+    
+}
+
+#profile > ul{
+    list-style: none;
 }
 

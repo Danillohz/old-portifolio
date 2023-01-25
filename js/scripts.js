@@ -9,6 +9,8 @@ var interval = 50;
 var interval1 = 150;
 var interval2 = 150;
 
+var day = false;
+
 function showtext() {
     var char1 = text1.split("").reverse();
 
@@ -86,12 +88,44 @@ function clickProfile() {
     if (profile.style.visibility == 'hidden') {
         profile.style = 'visibility: visible;' + 'opacity: 1 ;' + 'transition: visibility 0s, opacity 0.8s linear;'
 
+        btnMenuProf.style.backgroundColor = '#2e313591';
+
     }
     else {
 
         profile.style = 'visibility: hidden;' + 'opacity: 0 ;' + 'transition: visibility 1s, opacity 0.8s linear;'
 
+        btnMenuProf.style.backgroundColor = 'transparent';
+
     }
+}
+
+function clickDayNight(){
+
+    if(day == false){
+        day = true
+    }else{
+        day = false
+    }
+
+    if(day == true){
+        mainBody.style.backgroundColor = '#c5c5c5'
+        containerImgFundo.style.backgroundImage = 'url(../imagens/clement-m-igX2deuD9lc-unsplash.jpg)'
+        bollDayNight.style.marginLeft = '55%' 
+        bollDayNight.style.transform = 'rotate(360deg)'
+        bollDayNight.style.transition = 'margin-left 1s, transform 1s'
+
+    }
+    if(day == false){
+        mainBody.style.backgroundColor = '#282f38'
+        containerImgFundo.style.backgroundImage = 'url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg)'
+        bollDayNight.style.marginLeft = '0vw' 
+        bollDayNight.style.transform = 'rotate(0deg)'
+        bollDayNight.style.transition = 'margin-left 1s, transform 1s'
+        
+
+    }
+    
 }
 
 

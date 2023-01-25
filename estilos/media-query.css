@@ -17,22 +17,22 @@
         height: 23px;
     }
 
-    div#container-img-fundo{
+    div#containerImgFundo{
         background-image: url(../imagens/juan-davila-P8PlK2nGwqA-unsplash.jpg);
      }
 
-    div#container-img-fundo img{
+    div#containerImgFundo img{
         position: relative;
         margin: auto;
-        top: 15%;
+        top: -30%;
         border-radius: 100%;
         box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
         width: 80px;
     
-        transform: translate(-50%, -50%);
+      
     }
     
-    div#container-img-fundo img:hover{
+    div#containerImgFundo img:hover{
         width: 85px;
         transition: 0.2s;
     }
