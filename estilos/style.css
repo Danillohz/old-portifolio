@@ -124,6 +124,7 @@ button#dayNight{
 }
 
 div#containerImgFundo{
+    display: block;
     position: relative;
     background: black url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg) no-repeat center center fixed;
     background-size: 100% 100%;
@@ -137,8 +138,23 @@ div#containerImgFundo{
     opacity: 90%;
     height: 70vh;
 }
+div#secondImgFundo{
+    display: none;
+    position: relative;
+    background: black url(../imagens/clement-m-igX2deuD9lc-unsplash.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.527);
+    border-radius: 50px 25px 100px 20px;
+    border-left: 4px solid #8C2656;
+    border-right: 4px solid #F20544 ;
+    margin: auto;
+    width: 90%;
+    opacity: 90%;
+    height: 70vh;
+}
 
-div#containerImgFundo img{
+a#myPhoto img{
     position: absolute;
     left: 50%;
     top: 15%;
@@ -150,7 +166,7 @@ div#containerImgFundo img{
     transform: translate(-50%, -50%);
 }
 
-div#containerImgFundo img:hover{
+a#myPhoto img:hover{
     width: 75px;
 }
 
@@ -160,10 +176,10 @@ div#profile{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.466);
     left: 50%;
-    top: 50%;
+    top: 43%;
     transform: translate(-50%, -50%);
-    width: 90%;
-    height: 94%;
+    width: 85%;
+    height: 65%;
     border-radius: 50px 25px 100px 20px;
     box-shadow: 1px 1px 10px 1px black;
     

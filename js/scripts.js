@@ -110,7 +110,8 @@ function clickDayNight(){
 
     if(day == true){
         mainBody.style.backgroundColor = '#c5c5c5'
-        containerImgFundo.style.backgroundImage = 'url(../imagens/clement-m-igX2deuD9lc-unsplash.jpg)'
+        containerImgFundo.style.display = 'none'
+        secondImgFundo.style.display = 'block'
         bollDayNight.style.marginLeft = '55%' 
         bollDayNight.style.transform = 'rotate(360deg)'
         bollDayNight.style.transition = 'margin-left 1s, transform 1s'
@@ -118,7 +119,8 @@ function clickDayNight(){
     }
     if(day == false){
         mainBody.style.backgroundColor = '#282f38'
-        containerImgFundo.style.backgroundImage = 'url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg)'
+        containerImgFundo.style.display = 'block'
+        secondImgFundo.style.display = 'none'
         bollDayNight.style.marginLeft = '0vw' 
         bollDayNight.style.transform = 'rotate(0deg)'
         bollDayNight.style.transition = 'margin-left 1s, transform 1s'
