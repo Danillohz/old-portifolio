@@ -157,7 +157,7 @@ div#secondImgFundo{
 a#myPhoto img{
     position: absolute;
     left: 50%;
-    top: 15%;
+    top: 20%;
     border-radius: 100%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
     width: 70px;
@@ -178,8 +178,8 @@ div#profile{
     left: 50%;
     top: 43%;
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 330px;
+    width: 80vw;
+    height: 63vh;
     border-radius: 50px 25px 100px 20px;
     box-shadow: 1px 1px 10px 1px black;
     
@@ -232,7 +232,7 @@ div#textDev{
     border: 1px solid #8C2656;
 }
 #contato{
-    margin: 15% 0px 0px 65%;
+    margin: 16% 0px 0px 65%;
     background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
     
 }
