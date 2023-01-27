@@ -7,7 +7,7 @@
 
 body, html{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 body{
@@ -232,12 +232,35 @@ div#textDev{
     border: 1px solid #8C2656;
 }
 #contato{
-    margin: 16% 0px 0px 65%;
+    margin: 10% 0px 0px 65%;
     background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
     
 }
 
-#profile > ul{
+#contact > ul{
     list-style: none;
 }
+
+#instagram, #facebook, #linkedin, #github, #gmail{
+    position: absolute;
+}
+
+#instagram{
+    margin: -15% 0px 0px 15%
+}
+#facebook{
+    margin: -6.1% 0px 0px 15%;
+}
+#linkedin{
+    margin: 2.7% 0px 0px 15%;
+}
+#github{
+    margin: 11.2% 0px 0px 15%;
+}
+#gmail{
+    margin: 19.8% 0px 0px 15%;
+}
+
+
+
 
