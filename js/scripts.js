@@ -133,7 +133,6 @@ function clickCont() {
 
     if (contact.style.visibility == 'visible') {
         contact.style = 'visibility: hidden; ' 
-        
 
     }
     else {

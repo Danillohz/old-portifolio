@@ -244,6 +244,10 @@ div#profile > ul{
     list-style: none;
 }
 
+div#contact{
+    visibility: hidden;
+}
+
 #instagram, #facebook, #linkedin, #github, #gmail{
     position: absolute;
 }
