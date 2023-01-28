@@ -216,6 +216,9 @@ div#textDev{
     text-align: center;
     
 }
+div#profile > ul{
+    list-style: none;
+}
 
 #cv, #contato{
     position: absolute;
@@ -232,7 +235,7 @@ div#textDev{
     border: 1px solid #8C2656;
 }
 #contato{
-    margin: 10% 0px 0px 65%;
+    margin: 15% 0px 0px 65%;
     background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
     
 }
@@ -246,19 +249,24 @@ div#textDev{
 }
 
 #instagram{
-    margin: -15% 0px 0px 15%
+    margin: -40px 0px 0px 15%
 }
 #facebook{
-    margin: -6.1% 0px 0px 15%;
+    margin: -22px 0px 0px 15%;
 }
 #linkedin{
-    margin: 2.7% 0px 0px 15%;
+    margin: -3px 0px 0px 15%;
 }
 #github{
-    margin: 11.2% 0px 0px 15%;
+    margin: 17px 0px 0px 15%;
 }
 #gmail{
-    margin: 19.8% 0px 0px 15%;
+    margin: 40px 0px 0px 15%;
+}
+
+.contactsIcons img{
+    width: 80px;
+
 }
 
 
