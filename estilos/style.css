@@ -179,7 +179,7 @@ div#profile{
     top: 43%;
     transform: translate(-50%, -50%);
     width: 78vw;
-    height: 110vw;
+    height: 62vh;
     border-radius: 50px 25px 100px 20px;
     box-shadow: 1px 1px 10px 1px black;
     
@@ -235,7 +235,7 @@ div#profile > ul{
     border: 1px solid #8C2656;
 }
 #contato{
-    margin: 15% 0px 0px 65%;
+    margin: 40px 0px 0px 65%;
     background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
     
 }
@@ -246,6 +246,8 @@ div#profile > ul{
 
 div#contact{
     visibility: hidden;
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 #instagram, #facebook, #linkedin, #github, #gmail{
@@ -256,16 +258,20 @@ div#contact{
     margin: -40px 0px 0px 15%
 }
 #facebook{
-    margin: -22px 0px 0px 15%;
+    margin: -40px 0px 0px 15%;
+    transition: margin-top 1s;
 }
 #linkedin{
-    margin: -3px 0px 0px 15%;
+    margin: -40px 0px 0px 15%;
+    transition: margin-top 800ms;
 }
 #github{
-    margin: 17px 0px 0px 15%;
+    margin: -40px 0px 0px 15%;
+    transition: margin-top 700ms ;
 }
 #gmail{
-    margin: 40px 0px 0px 15%;
+    margin: -40px 0px 0px 15%;
+    transition: margin-top 600ms;
 }
 
 .contactsIcons img{

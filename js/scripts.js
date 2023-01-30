@@ -132,13 +132,20 @@ function clickDayNight() {
 function clickCont() {
 
     if (contact.style.visibility == 'visible') {
-        contact.style = 'visibility: hidden; ' 
+        contact.style = 'visibility: hidden;' + 'opacity: 0;' + 'transition: visibility 1s, opacity 1s' 
+        facebook.style = 'margin-top: -40px' 
+        linkedin.style = 'margin-top: -40px'
+        github.style = 'margin-top: -40px'
+        gmail.style = 'margin-top: -40px'
 
     }
     else {
 
-        contact.style = 'visibility: visible;'
-
+        contact.style = 'visibility: visible;' + 'opacity: 1;' + 'transition:opacity 1s'
+        facebook.style = 'margin-top: -22px' 
+        linkedin.style = 'margin-top: -3px'
+        github.style = 'margin-top: 17px'
+        gmail.style = 'margin-top: 40px'
         
 
     }
