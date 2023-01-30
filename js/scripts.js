@@ -112,18 +112,18 @@ function clickDayNight() {
         mainBody.style.backgroundColor = '#c5c5c5'
         containerImgFundo.style.display = 'none'
         secondImgFundo.style.display = 'block'
-        bollDayNight.style.marginLeft = '55%'
+        bollDayNight.style.left = '47%'
         bollDayNight.style.transform = 'rotate(360deg)'
-        bollDayNight.style.transition = 'margin-left 1s, transform 1s'
+        bollDayNight.style.transition = 'left 1s, transform 1s'
 
     }
     if (day == false) {
         mainBody.style.backgroundColor = '#282f38'
         containerImgFundo.style.display = 'block'
         secondImgFundo.style.display = 'none'
-        bollDayNight.style.marginLeft = '0vw'
+        bollDayNight.style.left = '2%'
         bollDayNight.style.transform = 'rotate(0deg)'
-        bollDayNight.style.transition = 'margin-left 1s, transform 1s'
+        bollDayNight.style.transition = 'left 1s, transform 1s'
 
 
     }
