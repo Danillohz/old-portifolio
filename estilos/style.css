@@ -305,9 +305,6 @@ div#Projects{
     border: 1px solid #1d22297e;
 
     transform: translate(-50%);
-
-    
-    
 }
 div#Projects > h1{
     color: white;
@@ -327,10 +324,11 @@ a#project1{
 }
 a#project1 img{
     position: absolute;
-    width: 50%;
+    width: 20%;
     left: 50%;
+    top: 50%;
 
-    transform: translate(-50%);
+    transform: translate(-50% , -50%);
 }
 a#project1:hover {
     border: 1px solid #F20544;

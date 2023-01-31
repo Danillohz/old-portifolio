@@ -103,6 +103,7 @@ function clickProfile() {
 function clickDayNight() {
 
 const darkclass = document.querySelectorAll('.dark');
+var size = sizes(size);
 
     if (day == false) {
         day = true
@@ -117,7 +118,12 @@ const darkclass = document.querySelectorAll('.dark');
         if(size == 1){
         bollDayNight.style.left = '47%'
         bollDayNight.style.transform = 'rotate(360deg)'
-        bollDayNight.style.transition = 'left 1s, transform 1s'}
+        bollDayNight.style.transition = 'left 1s, transform 1s'
+        }else if(size == 2){
+        bollDayNight.style.left = '62%'
+        bollDayNight.style.transform = 'rotate(360deg)'
+        bollDayNight.style.transition = 'left 1s, transform 1s'
+        }
         darkclass.forEach(element => {
             element.style.color = 'black'
         })
@@ -193,11 +199,8 @@ function sizes(size){
     if(window.innerWidth < 768){
         size = 1
     }
-    else if(window.innerWidth >=768 & window.innerWidth <= 1440){
+    else if(window.innerWidth >=768){
         size = 2
-    }
-    else if(window.innerWidth >1440){
-        size = 3
     }
     return size;
 }
