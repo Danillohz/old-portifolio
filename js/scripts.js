@@ -114,9 +114,10 @@ const darkclass = document.querySelectorAll('.dark');
         mainBody.style.backgroundColor = '#c5c5c5'
         containerImgFundo.style.display = 'none'
         secondImgFundo.style.display = 'block'
+        if(size == 1){
         bollDayNight.style.left = '47%'
         bollDayNight.style.transform = 'rotate(360deg)'
-        bollDayNight.style.transition = 'left 1s, transform 1s'
+        bollDayNight.style.transition = 'left 1s, transform 1s'}
         darkclass.forEach(element => {
             element.style.color = 'black'
         })
@@ -140,7 +141,7 @@ const darkclass = document.querySelectorAll('.dark');
 function clickCont() {
 var size = sizes(size);
     
- if(size == 1){
+ if(size == 1 ){
     if (contact.style.visibility == 'visible') {
         contact.style = 'visibility: hidden;' + 'opacity: 0;' + 'transition: visibility 1s, opacity 1s' 
         facebook.style = 'margin-top: -100px' 
@@ -161,7 +162,29 @@ var size = sizes(size);
 
         btnMenuCont.style.backgroundColor = '#272626b7';
     }
+ }else if(size == 2){
+        if (contact.style.visibility == 'visible') {
+            contact.style = 'visibility: hidden;' + 'opacity: 0;' + 'transition: visibility 1s, opacity 1s' 
+            facebook.style = 'margin-top: -160px' 
+            linkedin.style = 'margin-top: -160px'
+            github.style = 'margin-top: -160px'
+            gmail.style = 'margin-top: -160px'
+            
+            btnMenuCont.style.backgroundColor = 'transparent';
+    
+        }
+        else {
+    
+            contact.style = 'visibility: visible;' + 'opacity: 1;' + 'transition:opacity 1s'
+            facebook.style = 'margin-top: -132px' 
+            linkedin.style = 'margin-top: -102px'
+            github.style = 'margin-top: -72px'
+            gmail.style = 'margin-top: -42px'
+    
+            btnMenuCont.style.backgroundColor = '#272626b7';
+        }
  }
+ 
 
 }
 
