@@ -152,10 +152,10 @@ function clickCont() {
     else {
 
         contact.style = 'visibility: visible;' + 'opacity: 1;' + 'transition:opacity 1s'
-        facebook.style = 'margin-top: -82px' 
-        linkedin.style = 'margin-top: -62px'
-        github.style = 'margin-top: -42px'
-        gmail.style = 'margin-top: -20px'
+        facebook.style = 'margin-top: -84px' 
+        linkedin.style = 'margin-top: -67px'
+        github.style = 'margin-top: -49px'
+        gmail.style = 'margin-top: -29px'
 
         btnMenuCont.style.backgroundColor = '#272626b7';
 

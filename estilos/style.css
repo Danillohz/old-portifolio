@@ -259,8 +259,8 @@ div#contact{
 }
 
 div#contact > ul > li > h1{
-    position: fixed;
-    font-size:7.5vw;
+    position: absolute;
+    font-size:20px;
     color: white;
     z-index: 2;
     margin: -125px 0px 0px 14%;
@@ -291,7 +291,8 @@ div#contact > ul > li > h1{
     transition: margin-top 600ms;
 }
 .contactsIcons img{
-    width: 27vw;
+    width: 70px;
+    
 
 }
 
@@ -319,22 +320,30 @@ div#Projects > ul{
     
     
 }
-li.allProjects{
+a#project1{
+    display: block;
     position: relative;
     background-color: #161a1f57;
     border: 1px solid #f205442a ;
+    border-radius: 20px;
     margin: auto;
-    width: 100%;
+    width: 90%;
     height: 20vh;
 
     transition: 500ms;
 }
-li.allProjects:hover{
+a#project1 img{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+
+    transform: translate(-50%);
+}
+a#project1:hover {
     border: 1px solid #F20544;
+    
 }
-li.allProjects > a > img{
-    width: 100%;
-}
+
 
 footer{
     position: absolute;
@@ -342,6 +351,7 @@ footer{
     height: 60px;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.377);
     background-color: #011420;
+    z-index: -1;
     
 }
 
