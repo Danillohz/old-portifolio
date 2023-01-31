@@ -88,7 +88,7 @@ function clickProfile() {
     if (profile.style.visibility == 'hidden') {
         profile.style = 'visibility: visible;' + 'opacity: 1 ;' + 'transition: visibility 0s, opacity 0.8s linear;'
 
-        btnMenuProf.style.backgroundColor = '#2e313591';
+        btnMenuProf.style.backgroundColor = '#272626b7';
 
     }
     else {
@@ -101,6 +101,8 @@ function clickProfile() {
 }
 
 function clickDayNight() {
+
+const darkclass = document.querySelectorAll('.dark');
 
     if (day == false) {
         day = true
@@ -115,6 +117,9 @@ function clickDayNight() {
         bollDayNight.style.left = '47%'
         bollDayNight.style.transform = 'rotate(360deg)'
         bollDayNight.style.transition = 'left 1s, transform 1s'
+        darkclass.forEach(element => {
+            element.style.color = 'black'
+        })
 
     }
     if (day == false) {
@@ -124,6 +129,9 @@ function clickDayNight() {
         bollDayNight.style.left = '2%'
         bollDayNight.style.transform = 'rotate(0deg)'
         bollDayNight.style.transition = 'left 1s, transform 1s'
+        darkclass.forEach(element => {
+            element.style.color = 'white'
+        })
 
 
     }
@@ -133,19 +141,25 @@ function clickCont() {
 
     if (contact.style.visibility == 'visible') {
         contact.style = 'visibility: hidden;' + 'opacity: 0;' + 'transition: visibility 1s, opacity 1s' 
-        facebook.style = 'margin-top: -40px' 
-        linkedin.style = 'margin-top: -40px'
-        github.style = 'margin-top: -40px'
-        gmail.style = 'margin-top: -40px'
+        facebook.style = 'margin-top: -100px' 
+        linkedin.style = 'margin-top: -100px'
+        github.style = 'margin-top: -100px'
+        gmail.style = 'margin-top: -100px'
+        
+        btnMenuCont.style.backgroundColor = 'transparent';
 
     }
     else {
 
         contact.style = 'visibility: visible;' + 'opacity: 1;' + 'transition:opacity 1s'
-        facebook.style = 'margin-top: -22px' 
-        linkedin.style = 'margin-top: -3px'
-        github.style = 'margin-top: 17px'
-        gmail.style = 'margin-top: 40px'
+        facebook.style = 'margin-top: -82px' 
+        linkedin.style = 'margin-top: -62px'
+        github.style = 'margin-top: -42px'
+        gmail.style = 'margin-top: -20px'
+
+        btnMenuCont.style.backgroundColor = '#272626b7';
+
+        
         
 
     }
