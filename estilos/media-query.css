@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 450px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     menu#opcoes{
         position: absolute;
@@ -17,9 +17,20 @@
         height: 23px;
     }
 
+    button#dayNight{
+        
+        width: 45px;
+        height: 20px;
+        left: 93%;
+        top: 2%;
+        border: 1px solid #8C2656;
+        border-radius: 10px;
+       
+    }
+
     div#containerImgFundo{
-        background-image: url(../imagens/juan-davila-P8PlK2nGwqA-unsplash.jpg);
-     }
+        background-image: url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg);
+    }
 
     div#containerImgFundo img{
         position: relative;
@@ -33,7 +44,7 @@
     }
     
     div#containerImgFundo img:hover{
-        width: 85px;
+        width: 200px;
         transition: 0.2s;
     }
 
@@ -68,10 +79,33 @@
         text-align: center;
         
     }
+
+    #cv, #contato{
+        font-size: 2.5vw;
+        border-radius: 8px;
+        padding: 4px;
+        
+    }
+    #cv{
+        margin: 3% 0px 0px 70%;
+        border: 1px solid #8C2656;
+    }
+    #contato{
+        margin: 9% 0px 0px 79%;
+        background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
+        
+    }
+
+    a#project1 img{
+        width: 40%;
+    }
+    a#project1{
+        height: 40vh;
+    }
     
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1440px) {
+@media screen and (min-width: 1025px)  {
 
     div#container-img-fundo{
        background-image: url(../imagens/juan-davila-P8PlK2nGwqA-unsplash.jpg);
@@ -80,11 +114,3 @@
     
 }
 
-@media screen and (min-width: 1441px) and (max-width: 2560px) {
-
-    div#container-img-fundo{
-       background-image: url(../imagens/tobias-tullius-PXXtq6bp6cs-unsplash.jpg);
-    }
-
-    
-}

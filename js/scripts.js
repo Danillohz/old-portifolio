@@ -138,7 +138,9 @@ const darkclass = document.querySelectorAll('.dark');
 }
 
 function clickCont() {
-
+var size = sizes(size);
+    
+ if(size == 1){
     if (contact.style.visibility == 'visible') {
         contact.style = 'visibility: hidden;' + 'opacity: 0;' + 'transition: visibility 1s, opacity 1s' 
         facebook.style = 'margin-top: -100px' 
@@ -158,12 +160,24 @@ function clickCont() {
         gmail.style = 'margin-top: -29px'
 
         btnMenuCont.style.backgroundColor = '#272626b7';
-
-        
-        
-
     }
+ }
 
 }
+
+function sizes(size){
+    var size = 0
+    if(window.innerWidth < 768){
+        size = 1
+    }
+    else if(window.innerWidth >=768 & window.innerWidth <= 1440){
+        size = 2
+    }
+    else if(window.innerWidth >1440){
+        size = 3
+    }
+    return size;
+}
+
 
 
