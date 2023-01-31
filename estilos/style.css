@@ -259,13 +259,12 @@ div#contact{
 }
 
 div#contact > ul > li > h1{
-    text-align: center;
-    font-size:7vw;
+    position: fixed;
+    font-size:7.5vw;
     color: white;
-    position: absolute;
-    left: 13%;
-    top: 49%;
     z-index: 2;
+    margin: -125px 0px 0px 14%;
+    
 }
 
 #instagram, #facebook, #linkedin, #github, #gmail{
@@ -292,7 +291,7 @@ div#contact > ul > li > h1{
     transition: margin-top 600ms;
 }
 .contactsIcons img{
-    width: 80px;
+    width: 27vw;
 
 }
 
