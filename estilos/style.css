@@ -144,7 +144,7 @@ div#containerImgFundo{
     margin: auto;
     width: 90%;
     opacity: 90%;
-    height: 70vh;
+    height: 360px;
 }
 div#secondImgFundo{
     display: none;
@@ -159,13 +159,13 @@ div#secondImgFundo{
     margin: auto;
     width: 90%;
     opacity: 90%;
-    height: 70vh;
+    height: 360px;
 }
 
 a#myPhoto img{
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 100px;
     border-radius: 100%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
     width: 65px;
@@ -184,11 +184,13 @@ div#profile{
     position: relative;
     background-color: rgba(0, 0, 0, 0.466);
     margin: auto;
-    margin-top: -66vh;
+    margin-top: -350px;
     width: 78vw;
-    height: 62vh;
+    height: 335px;
     border-radius: 50px 25px 100px 20px;
     box-shadow: 1px 1px 10px 1px black;
+
+    
     
 }
 
@@ -198,7 +200,7 @@ div#textBemvindo{
     font-size: 23px;
     width: 100%;
     margin: auto;
-    padding-top: 18vh;
+    padding-top: 90px;
     text-align: center;
     
     
@@ -318,7 +320,7 @@ a#project1{
     border-radius: 20px;
     margin: auto;
     width: 90%;
-    height: 20vh;
+    height: 20vh;   
 
     transition: 500ms;
 }
