@@ -129,9 +129,8 @@ main{
 div#containerImgFundo{
     display: block;
     position: relative;
-    background: black url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg) no-repeat center center fixed;
-    background-size: 100% 100%;
-    background-size: cover;
+    background: black url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg) no-repeat bottom center fixed;
+    background-size: 100% 110%;
     box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.527);
     border-radius: 50px 25px 100px 20px;
     border-left: 4px solid #8C2656;
@@ -144,9 +143,8 @@ div#containerImgFundo{
 div#secondImgFundo{
     display: none;
     position: relative;
-    background: black url(../imagens/clement-m-igX2deuD9lc-unsplash.jpg) no-repeat center center fixed;
-    background-size: 100% 100%;
-    background-size: cover;
+    background: black url(../imagens/clement-m-igX2deuD9lc-unsplash.jpg) no-repeat bottom center fixed;
+    background-size: 100% 150%;
     box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.527);
     border-radius: 50px 25px 100px 20px;
     border-left: 4px solid #8C2656;
