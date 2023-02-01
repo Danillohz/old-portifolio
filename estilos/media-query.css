@@ -162,10 +162,7 @@
         
     }
 
-    button.buttons-menu{
-        font-size: 15px;
-        height: 23px;
-    }
+
 
     button#dayNight{
         
@@ -173,13 +170,11 @@
         height: 20px;
         left: 93%;
         top: 1.5%;
-        border: 1px solid #8C2656;
         border-radius: 10px;
        
     }
 
     div#containerImgFundo{
-        background-image: url(../imagens/jt-6a-1JcjtVbc-unsplash.jpg);
         height: 400px;
     }
     div#secondImgFundo{
@@ -190,52 +185,29 @@
         margin-top: -380px;
     }
 
-    div#containerImgFundo img{
-        position: relative;
-        margin: auto;
-        top: -30%;
-        border-radius: 100%;
-        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
-        width: 80px;
-    
-      
+    a#myPhoto img{
+        width: 70px;
     }
     
-    div#containerImgFundo img:hover{
-        width: 200px;
+    a#myPhoto img:hover{
+        width: 80px;
         transition: 0.2s;
     }
 
     div#textBemvindo{
-        position: relative;
-        color: white;
         font-size: 30px;
-        width: 100%;
-        margin: auto;
-        padding-top: 95px;
-        text-align: center;
+        padding-top: 105px;
         
         
     }
     div#textEu{
-        position: relative;
-        color: white;
         font-size: 25px;
         padding-top: 1%;
-        width: 100%;
-        margin: auto;
-        text-align: center;
         
     }
     div#textDev{
-        position: relative;
-        color: #8C2656;
         font-size: 18px;
-        padding-top: 0%;
-        width: 100%;
-        margin: auto;
-        text-align: center;
-        
+        padding-top: 0%;   
     }
 
     #cv, #contato{
@@ -321,7 +293,6 @@
 
     button.buttons-menu{
         font-size: 15px;
-        height: 23px;
     }
 
     button#dayNight{
@@ -336,66 +307,47 @@
     }
 
     div#containerImgFundo{
+        width: 75vw;
         height: 400px;
+        background-size: 100% 150%;
     }
     div#secondImgFundo{
+        width: 75vw;
         height: 400px;
+        background-size: 100% 150%;
     }
     div#profile{
         height: 360px;
         margin-top: -380px;
+        width: 70vw;
     }
 
-    div#containerImgFundo img{
-        position: relative;
-        margin: auto;
-        top: -30%;
-        border-radius: 100%;
-        box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
-        width: 80px;
-    
-      
+    a#myPhoto img{
+        width: 85px;
+        
     }
     
-    div#containerImgFundo img:hover{
-        width: 200px;
+    a#myPhoto img:hover{
+        width: 90px;
         transition: 0.2s;
     }
 
     div#textBemvindo{
-        position: relative;
-        color: white;
         font-size: 30px;
-        width: 100%;
-        margin: auto;
-        padding-top: 100px;
-        text-align: center;
-        
-        
+        padding-top: 120px;
     }
     div#textEu{
-        position: relative;
-        color: white;
         font-size: 25px;
-        padding-top: 1%;
-        width: 100%;
-        margin: auto;
-        text-align: center;
-        
+        padding-top: 0.5%;
     }
     div#textDev{
-        position: relative;
-        color: #8C2656;
         font-size: 18px;
         padding-top: 0%;
-        width: 100%;
-        margin: auto;
-        text-align: center;
         
     }
 
     #cv, #contato{
-        font-size: 2vw;
+        font-size: 1.8vw;
         border-radius: 8px;
         padding: 4px;
         

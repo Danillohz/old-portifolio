@@ -123,9 +123,10 @@ button#dayNight{
     
 }
 main{
-  filter: blur(0);
-  transition: 1s;
+    filter: blur(0);
+    transition: 1s;
 }
+
 div#containerImgFundo{
     display: block;
     position: relative;
@@ -178,7 +179,7 @@ div#profile{
     background-color: rgba(0, 0, 0, 0.466);
     margin: auto;
     margin-top: -310px;
-    width: 78vw;
+    width: 80vw;
     height: 300px;
     border-radius: 50px 25px 100px 20px;
     box-shadow: 1px 1px 10px 1px black;
