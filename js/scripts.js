@@ -66,6 +66,9 @@ function clickMenu() {
         opcoes.style.cssText = 'visibility: hidden;' + 'left: -40%;' + 'transition: visibility 1s, left 1s;';
 
         menuIcon.style.backgroundColor = '#011420';
+        main.style = 'filter: blur(0px);'
+        
+
 
 
 
@@ -73,6 +76,7 @@ function clickMenu() {
         opcoes.style.cssText = 'visibility: visible;' + 'left: 0%;' + 'transition: visibility 1s, left 1s;';
 
         menuIcon.style.backgroundColor = '#495053';
+        main.style = 'filter: blur(2px);'
 
 
 
@@ -146,7 +150,7 @@ var size = sizes(size);
 
 function clickCont() {
 var size = sizes(size);
-    
+clickMenu();
  if(size == 1 ){
     if (contact.style.visibility == 'visible') {
         contact.style = 'visibility: hidden;' + 'opacity: 0;' + 'transition: visibility 1s, opacity 1s' 

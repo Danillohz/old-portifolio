@@ -15,9 +15,11 @@ body{
 }
 
 header{
+    position: fixed;
     width: 100%;
     background-color: #011420;
     height: 40px;
+    z-index: 1;
 
 }
 
@@ -50,7 +52,7 @@ span#menuIcon{
 header::after{
     content: '';
     display: block;
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 2.4rem;
     height: 0.1rem;
@@ -58,54 +60,49 @@ header::after{
 }
 
 menu#opcoes{
-    position: absolute;
-    visibility: hidden;
-    left: -30%;
+    position: fixed;
+    visibility: visible;
+    left: -41%;
     width: 100%;
     z-index: 1;
     
 }
 
 menu#opcoes > ul{
-    position: relative;
-    width: 100px;
-    background-color: #252b3391;
-    border-radius: 0px 0px 50% 0px;
+    position: fixed;
+    width: 120px;
+    height: 100vh;
+    background-color: #0c0e11e7;
+    
+    
+    
     
 }
 
 button.buttons-menu{
     background-color: transparent;
+    position: fixed;
     color: white;
     border: none;
-    cursor: pointer;
-    text-align: left;
-    width: 100%;
-    height: 20px;
-    transition: height 500ms;
-    
-}
-
-button.buttons-menu:hover{
-    background-color: #2e313591; 
+    cursor: pointer;  
+    width: 120px;
     height: 30px;
-    
+    transition: height 500ms;
+    font-size: 16px;
+}
+menu#opcoes > ul > li{
+    width: 120px;
+    height: 30px;
+}
+menu#opcoes > ul > li:hover
+{
+    background-color: #F20544;
 }
 
-button#btnMenuProf{
-    background-color: #272626b7;
-}
-button#btnMenuProj{
-    border-radius: 0px 0px 10px 0px;
-}
-button#btnMenuCont{
-    border-radius: 0px 0px 80% 0px;
-   
 
-}
 
 button#dayNight{
-    position: absolute;
+    position: fixed;
     width: 35px;
     height: 20px;
     left: 83%;
@@ -130,7 +127,10 @@ button#dayNight{
     
     
 }
-
+main{
+  filter: blur(0);
+  transition: 1s;
+}
 div#containerImgFundo{
     display: block;
     position: relative;
@@ -165,7 +165,7 @@ div#secondImgFundo{
 a#myPhoto img{
     position: absolute;
     left: 50%;
-    top: 100px;
+    top: 90px;
     border-radius: 100%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.438);
     width: 65px;
@@ -184,9 +184,9 @@ div#profile{
     position: relative;
     background-color: rgba(0, 0, 0, 0.466);
     margin: auto;
-    margin-top: -350px;
+    margin-top: -310px;
     width: 78vw;
-    height: 335px;
+    height: 300px;
     border-radius: 50px 25px 100px 20px;
     box-shadow: 1px 1px 10px 1px black;
 
@@ -200,7 +200,7 @@ div#textBemvindo{
     font-size: 23px;
     width: 100%;
     margin: auto;
-    padding-top: 90px;
+    padding-top: 80px;
     text-align: center;
     
     
@@ -234,7 +234,7 @@ div#profile > ul{
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.411);
     color: white;
-    font-size: 4.5vw;
+    font-size: 4.4vw;
     border-radius: 8px;
     padding: 4px;
     
@@ -264,7 +264,7 @@ div#contact > ul > li > h1{
     position: absolute;
     font-size:20px;
     color: white;
-    z-index: 2;
+    z-index: 1;
     margin: -125px 0px 0px 14%;
     
 }
@@ -301,7 +301,7 @@ div#contact > ul > li > h1{
 div#Projects{
     position: relative;
     width: 90vw;
-    height: 30vh;
+    height: 215px;
     margin: 40px 0px 0px 0px;
     left: 50%;
     border: 1px solid #1d22297e;
@@ -320,7 +320,7 @@ a#project1{
     border-radius: 20px;
     margin: auto;
     width: 90%;
-    height: 20vh;   
+    height: 150px;   
 
     transition: 500ms;
 }
