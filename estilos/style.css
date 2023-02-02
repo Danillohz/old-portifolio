@@ -127,6 +127,7 @@ button#dayNight{
 main{
     filter: blur(0);
     transition: 1s;
+    height: 100%;
 }
 
 div#containerImgFundo{
@@ -298,7 +299,7 @@ div#Projects{
     position: relative;
     width: 90vw;
     height: 215px;
-    margin: 40px 0px 25px 0px;
+    margin: 40px 0px 0px 0px;
     left: 50%;
     border: 1px solid #1d22297e;
 
@@ -334,9 +335,10 @@ a#project1:hover {
 
 
 footer{
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 59px;
+    margin: 0px;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.377);
     background-color: #011420;
    
