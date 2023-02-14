@@ -124,10 +124,14 @@ button#dayNight{
     
     
 }
+
+section{
+    height: 100%;
+}
 main{
     filter: blur(0);
     transition: 1s;
-    height: 100%;
+    
 }
 
 div#containerImgFundo{
@@ -342,7 +346,7 @@ footer{
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.377);
     background-color: #011420;
    
-    
+      
 }
 
 
