@@ -5,10 +5,14 @@
     padding: 0px;
 }
 html, body{
-    height: 100vh;
+    width: 100%;
 }
 body{
     background-color: #282f38;
+    height: 100%;
+}
+main{
+    height: 100%;
 }
 
 header{
@@ -99,11 +103,10 @@ menu#opcoes > ul > li:hover
 
 
 button#dayNight{
-    position: fixed;
+    position: relative;
     width: 35px;
     height: 20px;
-    left: 83%;
-    top: 2%;
+    margin: 10px 15px 0px auto;
     border: 1px solid #8C2656;
     border-radius: 10px;
    
@@ -226,26 +229,31 @@ div#textDev{
     text-align: center;
     
 }
-div#profile > ul{
+#Container-CvAndContact{
+    text-align: right;
+    width: 90%;
+}
+#Container-CvAndContact > ul > li{
     list-style: none;
+    margin-top: 12px;
 }
 
 #cv, #contato{
-    position: absolute;
+    position: relative;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.411);
     color: white;
-    font-size: 4.4vw;
+    font-size: 15px;
     border-radius: 8px;
     padding: 4px;
     
 }
 #cv{
-    margin: 3% 0px 0px 50%;
+    
     border: 1px solid #8C2656;
 }
 #contato{
-    margin: 16% 0px 0px 66%;
+    
     background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
     
 }
@@ -301,53 +309,52 @@ div#contact > ul > li > h1{
 
 div#Projects{
     position: relative;
-    width: 90vw;
-    height: 215px;
-    margin: 40px 0px 0px 0px;
+    width: 80%;
+    height: 100%;
+    margin: 80px 0px 0px 0px;
     left: 50%;
-    border: 1px solid #1d22297e;
+    border: 2px solid #1d22297e;
 
     transform: translate(-50%);
 }
 div#Projects > h1{
     color: white;
     padding: 10px;
+    
 }
-a#project1{
+a.Projects{
     display: block;
     position: relative;
-    background-color: #161a1f57;
+    background: black url("../imagens/projeto1.png") no-repeat center top;
+    background-size: cover;
     border: 1px solid #f205442a ;
     border-radius: 20px;
     margin: auto;
-    width: 90%;
-    height: 150px;   
+    width: 80%;
+    height: 200px; 
+    margin-bottom: 30px;
+     
 
     transition: 500ms;
 }
-a#project1 img{
-    position: absolute;
-    width: 20%;
-    left: 50%;
-    top: 50%;
 
-    transform: translate(-50% , -50%);
-}
-a#project1:hover {
+a.Projects:hover {
     border: 1px solid #F20544;
+    width: 90%;
+    height: 260px;
 }
 
 
 footer{
     position: absolute;
+    margin-top: 60px;
     width: 100%;
     height: 59px;
-    margin: 0px;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.377);
-    background-color: #011420;
-   
-      
+    background-color: #011420; 
 }
+
+
 
 
 

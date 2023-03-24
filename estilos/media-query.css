@@ -8,8 +8,7 @@
         left: -30%;
         width: 50%;
         z-index: 1;
-        
-        
+       
     }
 
     
@@ -18,8 +17,7 @@
         
         width: 35px;
         height: 20px;
-        left: 89%;
-        top: 10px;
+
         border: 1px solid #8C2656;
         border-radius: 10px;
        
@@ -82,21 +80,6 @@
         
     }
 
-    #cv, #contato{
-        font-size: 15px;
-        border-radius: 8px;
-        padding: 4px;
-        
-    }
-    #cv{
-        margin: 3% 0px 0px 60%;
-        border: 1px solid #8C2656;
-    }
-    #contato{
-        margin: 10% 0px 0px 69%;
-        background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
-        
-    }
     
     div#contact > ul > li > h1{
     
@@ -128,26 +111,10 @@
         width: 70px;
     }
 
-    
-    div#Projects{
-        width: 70vw;
-        height: 330px;
-        margin: 40px 0px 0px 0px;
-        left: 50%;
-        border: 1px solid #1d22297e;
-    
-        transform: translate(-50%);
-    
-        
-        
+    #cv, #contato{
+        font-size: 20px;
     }
-    a#project1 img{
-        width: 20%;
-    }
-    a#project1{
-        width: 90%;
-        height: 80%;
-    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -211,27 +178,16 @@
     }
 
     #cv, #contato{
-        font-size: 2.5vw;
-        border-radius: 8px;
-        padding: 4px;
-        
+        font-size: 20px;
     }
-    #cv{
-        margin: 3% 0px 0px 70%;
-        border: 1px solid #8C2656;
-    }
-    #contato{
-        margin: 9% 0px 0px 79%;
-        background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
-        
-    }
-    
+
     div#contact > ul > li > h1{
     
         font-size:30px;
         margin: -200px 0px 0px 16%;
         
     }
+    
     
     #instagram{
         margin: -160px 0px 0px 16%
@@ -255,27 +211,9 @@
     .contactsIcons img{
         width: 120px;
     }
-
     
-    div#Projects{
-        width: 70vw;
-        height: 400px;
-        margin: 40px 0px 0px 0px;
-        left: 50%;
-        border: 1px solid #1d22297e;
     
-        transform: translate(-50%);
-    
-        
-        
-    }
-    a#project1 img{
-        width: 20%;
-    }
-    a#project1{
-        width: 90%;
-        height: 85%;
-    }
+   
 }
 
 @media screen and (min-width: 1025px)  {
@@ -299,8 +237,6 @@
         
         width: 45px;
         height: 20px;
-        left: 96%;
-        top: 1.4%;
         border: 1px solid #8C2656;
         border-radius: 10px;
        
@@ -347,20 +283,9 @@
     }
 
     #cv, #contato{
-        font-size: 1.8vw;
-        border-radius: 8px;
-        padding: 4px;
-        
+        font-size: 25px;
     }
-    #cv{
-        margin: 3% 0px 0px 70%;
-        border: 1px solid #8C2656;
-    }
-    #contato{
-        margin: 8% 0px 0px 77%;
-        background-image: linear-gradient(to right, #F20544 0%,  #8C2656 100%);
-        
-    }
+
     
     div#contact > ul > li > h1{
     
@@ -391,27 +316,7 @@
     .contactsIcons img{
         width: 120px;
     }
-
     
-    div#Projects{
-        width: 70vw;
-        height: 500px;
-        margin: 40px 0px 0px 0px;
-        left: 50%;
-        border: 1px solid #1d22297e;
-    
-        transform: translate(-50%);
-    
-        
-        
-    }
-    a#project1 img{
-        width: 15%;
-    }
-    a#project1{
-        width: 90%;
-        height: 80%;
-    }
 }
 
     
