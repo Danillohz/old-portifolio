@@ -12,7 +12,10 @@
     <script src="js/scripts.js" defer></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body id="mainBody" onresize="sizes()">
@@ -48,8 +51,9 @@
                         <div id="textDev"></div>
                         <div id="Container-CvAndContact">
                             <ul>
-                                <li><a  id="cv" href="imagens/New curriculo Danillo.pdf" download="CV Danillohz" type="">Download CV</a></li>
-                                <li><a  id="contato" href="mailto:danillohzd.real@gmail.com">Contato</a></li>
+                                <li><a id="cv" href="imagens/New curriculo Danillo.pdf" download="CV Danillohz"
+                                        type="">Download CV</a></li>
+                                <li><a id="contato" href="mailto:danillohzd.real@gmail.com">Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -63,13 +67,29 @@
             <section>
                 <div id="contact">
                     <ul>
-                        <li><h1 class="dark">Contatos</h1></li>
-                        <li id="instagram"><a class="contactsIcons" href="https://www.instagram.com/danillo_hz/" target="_blank"> <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt=""></a></li>
-                        <li id="facebook"><a class="contactsIcons" href="https://www.facebook.com/danny.jjunior.5" target="_blank"> <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt=""></a></li>
-                        
-                        <li id="linkedin"><a class="contactsIcons" href="https://www.linkedin.com/in/danillo-henrique-zezepanski-056056239/" target="_blank"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt=""></a></li>
-                        <li id="github"><a class="contactsIcons" href="https://github.com/Danillohz" target="_blank"> <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt=""></a></li>
-                        <li id="gmail"><a class="contactsIcons" href="mailto:danillohzd.real@gmail.com" target="_blank"> <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt=""></a></li>
+                        <li>
+                            <h1 class="dark">Contatos</h1>
+                        </li>
+                        <li id="instagram"><a class="contactsIcons" href="https://www.instagram.com/danillo_hz/"
+                                target="_blank"> <img
+                                    src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+                                    alt=""></a></li>
+                        <li id="facebook"><a class="contactsIcons" href="https://www.facebook.com/danny.jjunior.5"
+                                target="_blank"> <img
+                                    src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
+                                    alt=""></a></li>
+
+                        <li id="linkedin"><a class="contactsIcons"
+                                href="https://www.linkedin.com/in/danillo-henrique-zezepanski-056056239/"
+                                target="_blank"> <img
+                                    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                                    alt=""></a></li>
+                        <li id="github"><a class="contactsIcons" href="https://github.com/Danillohz" target="_blank">
+                                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+                                    alt=""></a></li>
+                        <li id="gmail"><a class="contactsIcons" href="mailto:danillohzd.real@gmail.com" target="_blank">
+                                <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+                                    alt=""></a></li>
                     </ul>
                 </div>
             </section>
@@ -77,12 +97,21 @@
                 <div id="Projects">
                     <h1 class="dark">Projetos</h1>
                     <a class="Projects" id="Project1" href="https://danillohz.github.io/react-climate/"></a>
+                    <a class="Projects" id="Project2" href="https://danillohz.github.io/virtualstore/"></a>
+                    <div id="Buttons-Projects">
+                        <button class="ChangeProject-btn" onclick="ChangeProjectLeft()"><span class="material-symbols-outlined">
+                                arrow_back_ios
+                            </span></button>
+                        <button class="ChangeProject-btn" onclick="ChangeProjectRight()"><span class="material-symbols-outlined">
+                                arrow_forward_ios
+                            </span></button>
+                    </div>
                 </div>
             </section>
         </article>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 

@@ -325,13 +325,11 @@ div#Projects > h1{
 a.Projects{
     display: block;
     position: relative;
-    background: black url("../imagens/projeto1.png") no-repeat center top;
-    background-size: cover;
     border: 1px solid #f205442a ;
     border-radius: 20px;
     margin: auto;
     width: 80%;
-    height: 200px; 
+    height: 200px;
     margin-bottom: 30px;
      
 
@@ -344,6 +342,31 @@ a.Projects:hover {
     height: 260px;
 }
 
+#Buttons-Projects{
+    width: 100%;
+    text-align: center;
+}
+
+.ChangeProject-btn{
+   background-color: transparent;
+   border: 0px;
+   width: 40px;
+}
+.ChangeProject-btn:hover{
+    background-color: #2e3134;
+}
+
+#Project1{
+    display: block;
+    background: black url("../imagens/projeto1.png") no-repeat center top;
+    background-size: cover;
+}
+#Project2{
+    display: none;
+    background: black url("../imagens/Projeto2.png") no-repeat center center;
+    background-size: cover;
+   
+}
 
 footer{
     position: absolute;

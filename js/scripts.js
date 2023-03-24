@@ -9,6 +9,8 @@ var interval = 50;
 var interval1 = 150;
 var interval2 = 150;
 
+let projectNumber = 1;
+
 var day = false;
 
 function showtext() {
@@ -207,6 +209,45 @@ function sizes(size){
         size = 2
     }
     return size;
+}
+
+function ChangeProjectRight(){
+
+    let project1Style = document.getElementById("Project1").style;
+    let project2Style = document.getElementById("Project2").style;
+
+    if(projectNumber === 1){
+        project1Style.display = "none"
+        project2Style.display = "block"
+        projectNumber = 2
+    }
+    else if(projectNumber === 2){
+        project1Style.display = "block"
+        project2Style.display = "none"
+        projectNumber = 1
+    }
+    
+    console.log("R")
+    console.log(projectNumber)
+}
+
+function ChangeProjectLeft(){
+
+    let project1Style = document.getElementById("Project1").style;
+    let project2Style = document.getElementById("Project2").style;
+
+    if(projectNumber === 1){
+        project1Style.display = "none"
+        project2Style.display = "block"
+        projectNumber = 2
+    }
+    else if(projectNumber === 2){
+        project1Style.display = "block"
+        project2Style.display = "none"
+        projectNumber = 1
+    }
+
+    console.log("L")
 }
 
 
