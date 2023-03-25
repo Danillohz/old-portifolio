@@ -217,13 +217,23 @@ function ChangeProjectRight(){
     let project2Style = document.getElementById("Project2").style;
 
     if(projectNumber === 1){
+        project1Style.opacity = "0"
         project1Style.display = "none"
         project2Style.display = "block"
+        project2Style.opacity = "1"
+
+       
         projectNumber = 2
+       
+        
     }
     else if(projectNumber === 2){
-        project1Style.display = "block"
+        project2Style.opacity = "0"
         project2Style.display = "none"
+        project1Style.display = "block"
+        project1Style.opacity = "1"
+
+        
         projectNumber = 1
     }
     
@@ -233,10 +243,11 @@ function ChangeProjectRight(){
 
 function ChangeProjectLeft(){
 
-    let project1Style = document.getElementById("Project1").style;
-    let project2Style = document.getElementById("Project2").style;
+    var project1Style = document.getElementById("Project1").style;
+    var project2Style = document.getElementById("Project2").style;
 
     if(projectNumber === 1){
+
         project1Style.display = "none"
         project2Style.display = "block"
         projectNumber = 2

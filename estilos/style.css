@@ -320,13 +320,14 @@ div#Projects{
 div#Projects > h1{
     color: white;
     padding: 10px;
+    font-size: 24px;
     
 }
 a.Projects{
     display: block;
     position: relative;
     border: 1px solid #f205442a ;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: auto;
     width: 80%;
     height: 200px;
@@ -338,8 +339,8 @@ a.Projects{
 
 a.Projects:hover {
     border: 1px solid #F20544;
-    width: 90%;
-    height: 260px;
+    
+ 
 }
 
 #Buttons-Projects{
@@ -358,14 +359,36 @@ a.Projects:hover {
 
 #Project1{
     display: block;
-    background: black url("../imagens/projeto1.png") no-repeat center top;
+    background: black url("../imagens/projeto1.png") no-repeat ;
+    background-position: center top;
     background-size: cover;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.958);
+    opacity: 1;
+    transition: opacity 1s;
+
 }
+
+.Names-Project{
+    font-size: 22px;
+    padding: 10px;
+   
+}
+
 #Project2{
     display: none;
-    background: black url("../imagens/Projeto2.png") no-repeat center center;
+    background: black url("../imagens/Projeto2.png") no-repeat;
+    background-position: center center;
     background-size: cover;
+    color: rgba(0, 0, 0, 0.958);
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 1s;
    
+}
+
+#Project1.visible, #Project2.visible{
+    display: block;
 }
 
 footer{
@@ -375,6 +398,7 @@ footer{
     height: 59px;
     box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.377);
     background-color: #011420; 
+    
 }
 
 
