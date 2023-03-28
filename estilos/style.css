@@ -365,7 +365,7 @@ a.Projects:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.958);
     opacity: 1;
-    transition: opacity 1s;
+    
 
 }
 
@@ -383,12 +383,17 @@ a.Projects:hover {
     color: rgba(0, 0, 0, 0.958);
     text-decoration: none;
     opacity: 0;
-    transition: opacity 1s;
+    
    
 }
 
 #Project1.visible, #Project2.visible{
     display: block;
+    opacity: 1;
+}
+#Project1.novisible, #Project2.novisible{
+    display: none;
+    opacity: 0;
 }
 
 footer{
