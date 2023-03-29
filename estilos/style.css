@@ -364,7 +364,6 @@ a.Projects:hover {
     background-size: cover;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.958);
-    opacity: 1;
     
 
 }
@@ -382,7 +381,6 @@ a.Projects:hover {
     background-size: cover;
     color: rgba(0, 0, 0, 0.958);
     text-decoration: none;
-    opacity: 0;
     
    
 }
