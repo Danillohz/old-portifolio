@@ -237,17 +237,13 @@ function ChangeProjectLeft(){
     var project2Style = document.getElementById("Project2").style;
 
     if(projectNumber === 1){
-        project1Style.opacity = "0"
         project1Style.display = "none"
         project2Style.display = "block"
-        project2Style.opacity = "1"
         projectNumber = 2
     }
     else if(projectNumber === 2){
         
         project1Style.display = "block"
-        project1Style.opacity = "1"
-        project2Style.opacity = "0"
         project2Style.display = "none"
         
         projectNumber = 1
